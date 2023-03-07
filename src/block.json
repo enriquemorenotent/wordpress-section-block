@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/section-block",
-	"version": "0.1.0",
-	"title": "Section Block",
+	"name": "emt/section-block",
+	"version": "1.0",
+	"title": "EMT Section",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "This is a section",
 	"supports": {
 		"html": false,
 		"align": ["full"],
@@ -26,6 +26,10 @@
 		"align": {
 			"type": "string",
 			"default": "full"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "transparent"
 		}
 	}
 }

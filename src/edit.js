@@ -25,10 +25,10 @@ const Edit = ({ attributes, setAttributes }) => {
 		<div {...useBlockProps()} style={style}>
 			<div>
 				<InspectorControls>
-					<PanelBody title={__("Settings", "my-block")}>
+					<PanelBody title={__("Settings", "emt-section-block")}>
 						<PanelRow>
 							<TextControl
-								label={__("Padding", "my-block")}
+								label={__("Padding", "emt-section-block")}
 								value={padding}
 								onChange={(padding) => setAttributes({ padding })}
 							/>
